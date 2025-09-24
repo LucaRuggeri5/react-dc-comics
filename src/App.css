@@ -14,7 +14,6 @@ li {
 
 /* HEADER */
 header {
-  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
@@ -34,8 +33,13 @@ header {
   padding: 70px 0px;
 }
 
+.container-link ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
 .container-link li {
-  display: inline;
   margin-right: 20px;
   font-weight: 700;
   cursor: pointer;
@@ -48,3 +52,44 @@ header {
 
 
 /* MAIN */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.sezione-main {
+  width: 1280px;
+}
+
+.content {
+  background: #1C1C1C;
+  color: white;
+  padding: 50px 0px;
+}
+
+.content-blu {
+  background: #0E82F9;
+  padding: 40px;
+}
+
+.content-blu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+.content-blu li {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+}
+
+.content-blu img {
+  height: 70px;
+}
