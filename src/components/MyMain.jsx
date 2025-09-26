@@ -13,7 +13,7 @@ const MyMain = () => {
                 <div className="jumbotron"></div>
                 <div class="content-black">
                     <div class="container">
-                        <ContentComics/>
+                        <ContentComics />
                     </div>
                 </div>
 
