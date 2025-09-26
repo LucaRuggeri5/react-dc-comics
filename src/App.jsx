@@ -1,7 +1,7 @@
 import './App.css'
 import MyHeader from './components/MyHeader'
 import MyMain from './components/MyMain'
-// import MyFooter from './components/MyFooter'
+import MyFooter from './components/MyFooter'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <MyHeader />
       <MyMain />
-      {/* <MyFooter /> */}
+      <MyFooter />
     </>
   )
 }

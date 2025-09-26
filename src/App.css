@@ -41,6 +41,7 @@ HEADER
   color: black;
   font-weight: 700;
   cursor: pointer;
+  transition: 0.4s ease;
 }
 
 .container-link li a:hover {
@@ -61,6 +62,13 @@ MAIN
 
 
 /* CONTENUTO PRINCIPALE */
+.content-black {
+  background: #1C1C1C;
+  color: white;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -70,6 +78,7 @@ MAIN
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   gap: 20px;
 }
@@ -86,11 +95,24 @@ MAIN
   transform: scale(1.10);
 }
 
+.card img {
+  max-width: 200px;
+  max-height: 300px;
+}
 
-.content-black {
-  background: #1C1C1C;
+.tasto-load {
+  border: 0px;
+  background-color: #0E82F9;
   color: white;
-  padding: 50px 0;
+  font-weight: 700;
+  padding: 10px 70px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.tasto-load:hover {
+  transform: scale(1.10);
 }
 
 
@@ -114,8 +136,84 @@ MAIN
   align-items: center;
   gap: 10px;
   font-size: 17px;
+  transition: 0.4s ease;
 }
 
 .lista-merc img {
   height: 70px;
+}
+
+.lista-merc li:hover {
+  transform: scale(1.10);
+}
+
+/****************************************************
+FOOTER
+*****************************************************/
+.content-img {
+  background-image: url(../src/assets/img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-foot {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-list {
+  color: #959595;
+  margin-right: 30px;
+  padding: 40px 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.title-list {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.container-foot li:hover {
+  color: white;
+}
+
+/* PARTE FINALE DEI LINK */
+.footer {
+  background-color: #303030;
+}
+
+.footer-link {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.tasto-sign a {
+  border: 3px solid;
+  border-color: #0E82F9;
+  background-color: #303030;
+  padding: 20px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.social ul {
+  display: flex;
+  align-items: center;
+}
+
+.social li {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0E82F9;
+  cursor: pointer;
 }

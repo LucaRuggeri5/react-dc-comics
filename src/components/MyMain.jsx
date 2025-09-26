@@ -173,11 +173,10 @@ const MyMain = () => {
                                     <span>{comic.series}</span>
                                 </div>
                             ))}
+                            <button class="tasto-load">LOAD MORE</button>
                         </div>
                     </div>
                 </div>
-
-
 
                 <div class="content-blu">
                     <div class="container">
